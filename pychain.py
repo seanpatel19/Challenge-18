@@ -174,15 +174,14 @@ input_data = st.text_input("Block Data")
 
 # @TODO:
 # Add an input area where you can get a value for `sender` from the user.
-# YOUR CODE HERE
+sender = st.text("sender")                                  ## used lower case as there is no cap to crypto
 
 # @TODO:
 # Add an input area where you can get a value for `receiver` from the user.
-# YOUR CODE HERE
-
+receiver = st.text_input("receiver")
 # @TODO:
 # Add an input area where you can get a value for `amount` from the user.
-# YOUR CODE HERE
+amount = st.text_input("amount")
 
 if st.button("Add Block"):
     prev_block = pychain.chain[-1]
@@ -195,7 +194,8 @@ if st.button("Add Block"):
     new_block = Block(
         data=input_data,
         creator_id=42,
-        prev_hash=prev_block_hash
+        prev_hash=prev_block_hash,
+        record = Record
     )
 
     pychain.add_block(new_block)
