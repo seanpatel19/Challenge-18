@@ -83,7 +83,7 @@ streamlit https://streamlit.io
 Before running the application first install the following dependencies.
 See the associated Screenshot for what to Install 
 
-![imports](https://github.com/seanpatel19/Challenge-14/blob/04817cff05989aea7629b9be2d8c92ca377a00ef/Images/imports%20.jpg)
+![imports](https://github.com/seanpatel19/Challenge-18/blob/bc543fb11ec798be8aaaa07b042917861458499b/images/installs.png)
 
 
 
@@ -92,7 +92,27 @@ See the associated Screenshot for what to Install
 
 ## Proof of Work
 
-Please see the following screenshots of the blockchain visualized through Streamlit
+Please see the following screenshots of code 
+
+### Creating the fields for the user to input 
+
+![input code](https://github.com/seanpatel19/Challenge-18/blob/bc543fb11ec798be8aaaa07b042917861458499b/images/streamlit%20input%20codes.png)
+
+
+### Inputs via Streamlit 
+
+![streamlit input](https://github.com/seanpatel19/Challenge-18/blob/bc543fb11ec798be8aaaa07b042917861458499b/images/streamlit%20inputs.png)
+
+Adding to the blockchain 
+
+![block expanded](https://github.com/seanpatel19/Challenge-18/blob/bc543fb11ec798be8aaaa07b042917861458499b/images/block%20expanded.png)
+
+
+Validated chain 
+
+![valid chain](https://github.com/seanpatel19/Challenge-18/blob/bc543fb11ec798be8aaaa07b042917861458499b/images/chain%20valid.png)
+
+
 
 
 
